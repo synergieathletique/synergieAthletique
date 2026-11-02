@@ -173,8 +173,8 @@ export default function Home() {
                 M'écrire
               </Link>
             </div>
-          </div>
-        </div>
+          {/* </div>
+        </div> */}
       </section>
     </>
   )
