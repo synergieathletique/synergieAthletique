@@ -140,7 +140,7 @@ export default function Home() {
 
       {/* BLOC À PROPOS */}
       <section className="section about sand" id="a-propos">
-        <div className="wrap split">
+        {/* <div className="wrap split">
           <div className="portrait">
             {site.practitioner.photo ? (
               <img src={site.practitioner.photo} alt={site.practitioner.firstName} />
@@ -151,7 +151,7 @@ export default function Home() {
               </div>
             )}
           </div>
-          <div>
+          <div> */}
             <p className="kicker">Le praticien</p>
             <h2 style={{color:'black'}}>
               {site.practitioner.firstName},
